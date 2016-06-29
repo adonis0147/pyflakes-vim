@@ -277,7 +277,10 @@ EOF
                 call setqflist(b:qf_list, 'r')
             else
                 " one pyflakes quickfix window for all buffer
-                call setqflist(b:qf_list, '')
+                try
+                    call setqflist(b:qf_list, '')
+                catch
+                endtry
                 let s:pyflakes_qf = s:GetQuickFixStackCount()
             endif
         endif
