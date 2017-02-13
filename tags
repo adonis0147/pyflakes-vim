@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+<C-R>	.\\ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> <C-R> <C-R>:PyflakesUpdate<CR>$/;"	m
+<C-R>	ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> <C-R> <C-R>:PyflakesUpdate<CR>$/;"	m
+BUNDLE_FILENAME	.\\makerelease.py	/^BUNDLE_FILENAME = 'pyflakes-vim.zip'$/;"	v
+Changelog	.\\README.rst	/^Changelog$/;"	c
+Hacking	.\\README.rst	/^Hacking$/;"	c
+Options	.\\README.rst	/^Options$/;"	c
+PyflakesUpdate	.\\ftplugin\\python\\pyflakes.vim	/^  command PyflakesUpdate :call s:PyflakesUpdate()$/;"	c
+PyflakesUpdate	ftplugin\\python\\pyflakes.vim	/^  command PyflakesUpdate :call s:PyflakesUpdate()$/;"	c
+Quick Installation	.\\README.rst	/^Quick Installation$/;"	c
+Running from source	.\\README.rst	/^Running from source$/;"	c
+TODO	.\\README.rst	/^TODO$/;"	c
+b:did_pyflakes_plugin	.\\ftplugin\\python\\pyflakes.vim	/^    let b:did_pyflakes_plugin = 1$/;"	v
+b:did_pyflakes_plugin	ftplugin\\python\\pyflakes.vim	/^    let b:did_pyflakes_plugin = 1$/;"	v
+b:did_python_init	.\\ftplugin\\python\\pyflakes.vim	/^    let b:did_python_init = 0$/;"	v
+b:did_python_init	.\\ftplugin\\python\\pyflakes.vim	/^    let b:did_python_init = 1$/;"	v
+b:did_python_init	ftplugin\\python\\pyflakes.vim	/^    let b:did_python_init = 0$/;"	v
+b:did_python_init	ftplugin\\python\\pyflakes.vim	/^    let b:did_python_init = 1$/;"	v
+b:showing_message	.\\ftplugin\\python\\pyflakes.vim	/^let b:showing_message = 0$/;"	v
+b:showing_message	ftplugin\\python\\pyflakes.vim	/^let b:showing_message = 0$/;"	v
+dd	.\\ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> dd dd:PyflakesUpdate<CR>$/;"	m
+dd	ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> dd dd:PyflakesUpdate<CR>$/;"	m
+dw	.\\ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> dw dw:PyflakesUpdate<CR>$/;"	m
+dw	ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> dw dw:PyflakesUpdate<CR>$/;"	m
+g:pyflakes_builtins	.\\ftplugin\\python\\pyflakes.vim	/^    let g:pyflakes_builtins = []$/;"	v
+g:pyflakes_builtins	ftplugin\\python\\pyflakes.vim	/^    let g:pyflakes_builtins = []$/;"	v
+g:pyflakes_use_quickfix	.\\ftplugin\\python\\pyflakes.vim	/^    let g:pyflakes_use_quickfix = 1$/;"	v
+g:pyflakes_use_quickfix	ftplugin\\python\\pyflakes.vim	/^    let g:pyflakes_use_quickfix = 1$/;"	v
+get_directory	.\\makerelease.py	/^def get_directory():$/;"	f
+include_dir	.\\makerelease.py	/^def include_dir(d):$/;"	f
+include_file	.\\makerelease.py	/^def include_file(f):$/;"	f
+make_dist	.\\makerelease.py	/^def make_dist():$/;"	f
+pyflakes-vim	.\\README.rst	/^pyflakes-vim$/;"	s	chapter:pyflakes-vim is officially deprecated!
+pyflakes-vim is officially deprecated!	.\\README.rst	/^pyflakes-vim is officially deprecated!$/;"	c
+s:ActivatePyflakesQuickFixWindow	.\\ftplugin\\python\\pyflakes.vim	/^    function s:ActivatePyflakesQuickFixWindow()$/;"	f
+s:ActivatePyflakesQuickFixWindow	ftplugin\\python\\pyflakes.vim	/^    function s:ActivatePyflakesQuickFixWindow()$/;"	f
+s:ClearPyflakes	.\\ftplugin\\python\\pyflakes.vim	/^    function s:ClearPyflakes()$/;"	f
+s:ClearPyflakes	ftplugin\\python\\pyflakes.vim	/^    function s:ClearPyflakes()$/;"	f
+s:GetPyflakesMessage	.\\ftplugin\\python\\pyflakes.vim	/^    function s:GetPyflakesMessage()$/;"	f
+s:GetPyflakesMessage	ftplugin\\python\\pyflakes.vim	/^    function s:GetPyflakesMessage()$/;"	f
+s:GetQuickFixStackCount	.\\ftplugin\\python\\pyflakes.vim	/^    function s:GetQuickFixStackCount()$/;"	f
+s:GetQuickFixStackCount	ftplugin\\python\\pyflakes.vim	/^    function s:GetQuickFixStackCount()$/;"	f
+s:PyflakesUpdate	.\\ftplugin\\python\\pyflakes.vim	/^    function s:PyflakesUpdate()$/;"	f
+s:PyflakesUpdate	ftplugin\\python\\pyflakes.vim	/^    function s:PyflakesUpdate()$/;"	f
+s:RunPyflakes	.\\ftplugin\\python\\pyflakes.vim	/^    function s:RunPyflakes()$/;"	f
+s:RunPyflakes	ftplugin\\python\\pyflakes.vim	/^    function s:RunPyflakes()$/;"	f
+s:WideMsg	.\\ftplugin\\python\\pyflakes.vim	/^    function s:WideMsg(msg)$/;"	f
+s:WideMsg	ftplugin\\python\\pyflakes.vim	/^    function s:WideMsg(msg)$/;"	f
+u	.\\ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> u u:PyflakesUpdate<CR>$/;"	m
+u	ftplugin\\python\\pyflakes.vim	/^noremap <buffer><silent> u u:PyflakesUpdate<CR>$/;"	m
